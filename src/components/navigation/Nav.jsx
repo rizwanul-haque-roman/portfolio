@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import { Link as ScrollLink } from "react-scroll";
 
 const Nav = () => {
   return (
@@ -10,21 +11,54 @@ const Nav = () => {
         </h3>
       </div>
       <div className="flex justify-center gap-6">
-        <Link href={"#home"} className="text-lg">
+        <ScrollLink
+          to="home"
+          smooth={true}
+          duration={500}
+          className="text-lg cursor-pointer"
+        >
           Home
-        </Link>
-        <Link href={"#about"} className="text-lg">
+        </ScrollLink>
+        <ScrollLink
+          to="about"
+          smooth={true}
+          duration={500}
+          className="text-lg cursor-pointer"
+        >
           About Me
-        </Link>
-        <Link href={"#work"} className="text-lg">
-          Work
-        </Link>
-        <Link href={"#contact"} className="text-lg">
-          Contact
-        </Link>
-        <Link href={"#reachOut"} className="text-lg">
+        </ScrollLink>
+        <ScrollLink
+          to="skills"
+          smooth={true}
+          duration={500}
+          className="text-lg cursor-pointer"
+        >
+          Skills
+        </ScrollLink>
+        <ScrollLink
+          to="eduExp"
+          smooth={true}
+          duration={500}
+          className="text-lg cursor-pointer"
+        >
+          Experience
+        </ScrollLink>
+        <ScrollLink
+          to="portfolio"
+          smooth={true}
+          duration={500}
+          className="text-lg cursor-pointer"
+        >
+          Portfolio
+        </ScrollLink>
+        <ScrollLink
+          to="reachOut"
+          smooth={true}
+          duration={500}
+          className="text-lg cursor-pointer"
+        >
           Get in Touch
-        </Link>
+        </ScrollLink>
       </div>
     </div>
   );

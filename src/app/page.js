@@ -5,6 +5,9 @@ import Banner from "@/components/banner/Banner";
 import Nav from "@/components/navigation/Nav";
 import EduExp from "@/components/eduExp/EduExp";
 import Portfolio from "@/components/portfolio/Portfolio";
+import Contact from "@/components/contact/Contact";
+import Footer from "@/components/footer/Footer";
+import Skills from "@/components/skills/Skills";
 
 export default function Home() {
   const [showNav, setShowNav] = useState(true);
@@ -40,17 +43,26 @@ export default function Home() {
       >
         <Nav />
       </div>
-      <div className="w-full">
+      <div id="home" className="w-full">
         <Banner />
       </div>
-      <div className="w-full">
+      <div id="about" className="w-full">
         <AboutMe />
       </div>
-      <div className="w-full">
+      <div id="skills" className="w-full">
+        <Skills />
+      </div>
+      <div id="eduExp" className="w-full">
         <EduExp />
       </div>
-      <div className="w-full">
+      <div id="portfolio" className="w-full">
         <Portfolio />
+      </div>
+      <div id="reachOut" className="w-full">
+        <Contact />
+      </div>
+      <div className="w-full">
+        <Footer />
       </div>
     </main>
   );

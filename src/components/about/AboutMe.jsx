@@ -1,5 +1,4 @@
 import React from "react";
-import Skills from "../skills/Skills";
 
 const AboutMe = () => {
   return (
@@ -64,7 +63,6 @@ const AboutMe = () => {
           <img className="w-2/3" src="/coreTech.gif" alt="" />
         </div>
       </div>
-      <Skills />
     </div>
   );
 };

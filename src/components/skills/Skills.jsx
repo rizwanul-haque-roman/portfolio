@@ -104,29 +104,20 @@ const Skills = () => {
         <div className="text-8xl flex flex-col gap-12 justify-center items-center mt-12">
           <div className="flex gap-6">
             <Html5Original />
-
             <Css3Original />
-
             <TailwindcssOriginalWordmark />
-
             <BootstrapOriginal />
-
             <JavascriptOriginal />
-
             <ReactOriginal />
-
             <NextjsOriginalWordmark color="#FFFFFF" />
           </div>
 
           <div className="flex gap-6">
             <NodejsOriginalWordmark />
-
             <div className="bg-white p-2 rounded-lg">
               <ExpressOriginal color="#FFFFFF" />
             </div>
-
             <MongodbOriginalWordmark />
-
             <FirebasePlain />
           </div>
 

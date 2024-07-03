@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { Typewriter } from "react-simple-typewriter";
+import Link from "next/link";
 
 const Banner = () => {
   return (
@@ -38,6 +39,7 @@ const Banner = () => {
                     delaySpeed={1000}
                   />
                 </span>
+                {/* / */}
               </h1>
               <p className="w-3/4 text-xl mt-5 mb-8">
                 I am an enthusiastic developer who can convert thoughts into
@@ -45,9 +47,21 @@ const Banner = () => {
                 creativity with practicality when creating amazing websites that
                 are eye candy for the users.
               </p>
-              <button className="text-2xl border border-[#6f139b] bg-[#1f052bcd] max-w-sm rounded px-8 py-4 font-bold">
-                Learn More_
-              </button>
+              <div className="flex gap-6">
+                <button className="btn text-xl border hover:bg-[#1f052bcd] border-[#6f139b] bg-[#1f052bcd] max-w-sm rounded font-bold">
+                  Learn More_
+                </button>
+                <button className="btn text-xl border hover:bg-[#1f052bcd] border-[#6f139b] bg-[#1f052bcd] max-w-sm rounded font-bold">
+                  <Link
+                    href={
+                      "https://drive.google.com/uc?export=download&id=1_tAZ9PaOpg5jXzP2IuTmDJfN-WLL3XUT"
+                    }
+                    download
+                  >
+                    Download Resume_
+                  </Link>
+                </button>
+              </div>
             </div>
           </div>
         </div>
