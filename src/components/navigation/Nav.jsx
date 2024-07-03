@@ -6,7 +6,7 @@ const Nav = () => {
     <div className="flex items-center justify-between w-full py-4 px-24 bg-[#00000020] backdrop-blur-sm">
       <div>
         <h3 class="text-5xl font-black">
-          &lt;/Ro<span class="text-[#6f139b]">man</span>&gt;
+          &lt;Ro<span class="text-[#6f139b]">man</span>/&gt;
         </h3>
       </div>
       <div className="flex justify-center gap-6">
