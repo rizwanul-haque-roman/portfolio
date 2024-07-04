@@ -21,11 +21,13 @@ import GithubOriginal from "react-devicons/github/original";
 const Skills = () => {
   return (
     <div>
-      <div className="relative px-24 pt-12">
-        <div className="w-full absolute pt-6 inset-0 opacity-5 ">
-          <h1 className="text-center text-8xl font-bold">SKILLS & EXPERTISE</h1>
+      <div className="relative p-6 lg:px-24 lg:pt-12">
+        <div className="w-full absolute pt-2 lg:pt-6 inset-0 opacity-5 ">
+          <h1 className="text-center text-6xl lg:text-8xl font-bold">
+            SKILLS & EXPERTISE
+          </h1>
         </div>
-        <h1 className="text-center text-6xl font-bold">
+        <h1 className="text-center text-5xl lg:text-6xl font-bold">
           SKILLS & <span className="text-[#70139b]">EXPERTISE</span>
         </h1>
         {/* <div className=""> */}
@@ -101,7 +103,7 @@ const Skills = () => {
             </Marquee>
           </div> */}
 
-        <div className="text-8xl flex flex-col gap-12 justify-center items-center mt-12">
+        <div className="text-4xl lg:text-8xl flex flex-col gap-12 justify-center items-center mt-12">
           <div className="flex gap-6">
             <Html5Original />
             <Css3Original />
@@ -114,7 +116,7 @@ const Skills = () => {
 
           <div className="flex gap-6">
             <NodejsOriginalWordmark />
-            <div className="bg-white p-2 rounded-lg">
+            <div className="bg-white p-1 lg:p-2 rounded-lg">
               <ExpressOriginal color="#FFFFFF" />
             </div>
             <MongodbOriginalWordmark />

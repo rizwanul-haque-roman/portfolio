@@ -47,22 +47,24 @@ const Contact = () => {
   };
 
   return (
-    <div className="m-24">
-      <div className="relative px-24 py-12">
-        <div className="w-full absolute pt-6 inset-0 opacity-5 ">
-          <h1 className="text-center text-8xl font-bold">GET IN TOUCH</h1>
+    <div className="m-6 lg:m-24">
+      <div className="relative lg:px-24 lg:py-12">
+        <div className="w-full absolute lg:pt-6 inset-0 opacity-5 ">
+          <h1 className="text-center text-5xl lg:text-8xl font-bold">
+            GET IN TOUCH
+          </h1>
         </div>
-        <h1 className="text-center text-6xl font-bold">
+        <h1 className="text-center text-4xl lg:text-6xl font-bold">
           GET IN <span className="text-[#70139b]">TOUCH</span>
         </h1>
       </div>
-      <div className="flex justify-between items-start">
-        <div className="w-1/2">
+      <div className="flex flex-col lg:flex-row lg:justify-between items-start">
+        <div className="lg:w-1/2">
           <div>
             <h3 className="text-4xl font-bold my-6 text-[#70139b]">
               Don&apos;t Be Shy!
             </h3>
-            <p className="w-2/3 text-xl">
+            <p className="lg:w-2/3 text-xl">
               Feel free to get in touch with me. I am always open to discussing
               new projects, creative ideas or opportunities to be part of your
               visions.
@@ -92,7 +94,7 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        <div className="w-1/3">
+        <div className="lg:w-1/3">
           <div className="">
             <h3 className="text-4xl font-bold my-6 text-[#70139b]">
               Send Message
