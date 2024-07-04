@@ -78,7 +78,7 @@ const Nav = () => {
     </>
   );
   return (
-    <div className="lg:py-4 lg:px-24 navbar bg-[#00000020] backdrop-blur-sm">
+    <div className="lg:px-24 navbar bg-[#00000020] backdrop-blur-sm">
       <div className="navbar-start">
         <div onClick={handleNavDropdown} className="dropdown">
           <div
@@ -122,7 +122,7 @@ const Nav = () => {
           </h3>
         </ScrollLink>
       </div>
-      <div className="navbar-end hidden lg:flex">
+      <div className="navbar hidden lg:flex">
         <ul className="menu menu-horizontal px-1">{links}</ul>
       </div>
     </div>
