@@ -48,10 +48,10 @@ const Banner = () => {
                 are eye candy for the users.
               </p>
               <div className="flex gap-3">
-                <button className="btn btn-sm lg:btn-md text-lg lg:text-xl border hover:bg-[#1f052bcd] border-[#6f139b] bg-[#1f052bcd] max-w-sm rounded font-bold">
+                <button className="btn btn-sm lg:btn-md text-lg lg:text-xl border hover:bg-[#1f052bcd] border-[#6f139b] bg-[#1f052bcd] max-w-sm rounded font-bold text-white">
                   Learn More_
                 </button>
-                <button className="btn btn-sm lg:btn-md text-lg lg:text-xl border hover:bg-[#1f052bcd] border-[#6f139b] bg-[#1f052bcd] max-w-sm rounded font-bold">
+                <button className="btn btn-sm lg:btn-md text-lg lg:text-xl border hover:bg-[#1f052bcd] border-[#6f139b] bg-[#1f052bcd] max-w-sm rounded font-bold text-white">
                   <Link
                     href={
                       "https://drive.google.com/uc?export=download&id=1_tAZ9PaOpg5jXzP2IuTmDJfN-WLL3XUT"

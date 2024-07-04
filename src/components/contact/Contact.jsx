@@ -125,7 +125,7 @@ const Contact = () => {
                 className="textarea bg-transparent border border-[#6f139b]"
                 placeholder="Your Message"
               ></textarea>
-              <button className="btn border hover:bg-[#1f052bcd] border-[#6f139b] bg-[#1f052bcd] rounded-lg px-4 py-2 font-bold w-full bg-clr-main">
+              <button className="btn border hover:bg-[#1f052bcd] border-[#6f139b] bg-[#1f052bcd] rounded-lg px-4 py-2 font-bold w-full bg-clr-main text-white">
                 Send Message
               </button>
             </form>
