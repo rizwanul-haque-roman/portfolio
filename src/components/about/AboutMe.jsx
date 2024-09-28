@@ -30,11 +30,10 @@ const AboutMe = () => {
           <div className="gap-40 hidden lg:flex">
             <div className="text-lg lg:text-xl space-y-2 text-[#959595]">
               <p>
-                First Name:{" "}
-                <span className="font-bold text-white">Rizwanul Haque</span>
-              </p>
-              <p>
-                Age: <span className="font-bold text-white">25</span>
+                Name:{" "}
+                <span className="font-bold text-white">
+                  Rizwanul Haque Roman
+                </span>
               </p>
               <p>
                 Email:{" "}
@@ -45,30 +44,23 @@ const AboutMe = () => {
             </div>
             <div className="text-xl space-y-2 text-[#959595]">
               <p>
-                Last Name: <span className="font-bold text-white">Roman</span>
-              </p>
-              <p>
                 From:{" "}
                 <span className="font-bold text-white">Dhaka,Bangladesh</span>
               </p>
 
               <p>
                 Phone:{" "}
-                <span className="font-bold text-white">+880 197 555 2562</span>
+                <span className="font-bold text-white">+880 1975 552 562</span>
               </p>
             </div>
           </div>
           <div className="display lg:hidden">
             <div className="text-lg lg:text-xl space-y-2 text-[#959595]">
               <p>
-                First Name:{" "}
-                <span className="font-bold text-white">Rizwanul Haque</span>
-              </p>
-              <p>
-                Last Name: <span className="font-bold text-white">Roman</span>
-              </p>
-              <p>
-                Age: <span className="font-bold text-white">25</span>
+                Name:{" "}
+                <span className="font-bold text-white">
+                  Rizwanul Haque Roman
+                </span>
               </p>
               <p>
                 Email:{" "}
@@ -84,7 +76,7 @@ const AboutMe = () => {
 
               <p>
                 Phone:{" "}
-                <span className="font-bold text-white">+880 197 555 2562</span>
+                <span className="font-bold text-white">+880 1975 552 562</span>
               </p>
             </div>
           </div>

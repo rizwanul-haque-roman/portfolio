@@ -75,7 +75,7 @@ const Contact = () => {
               <FaMap className="text-4xl text-[#6f139b]" />
               <div>
                 <p className="text-xl font-bold">Address</p>
-                <p>46/1 Shukrabad, Sher-E-Bangla Nagar, Dhaka.</p>
+                <p>Mirpur DOHS, Dhaka.</p>
               </div>
             </div>
             <div className="flex items-center gap-6 ">
@@ -89,7 +89,7 @@ const Contact = () => {
               <IoCallSharp className="text-4xl text-[#6f139b]" />
               <div>
                 <p className="text-xl font-bold">Call Me</p>
-                <p>+880 197 555 2562</p>
+                <p>+880 1975 552 562</p>
               </div>
             </div>
           </div>

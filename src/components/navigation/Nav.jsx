@@ -117,8 +117,8 @@ const Nav = () => {
           duration={500}
           className="text-lg cursor-pointer"
         >
-          <h3 class="text-3xl lg:text-5xl font-black">
-            &lt;Ro<span class="text-[#6f139b]">man</span>/&gt;
+          <h3 className="text-3xl lg:text-5xl font-black">
+            &lt;Ro<span className="text-[#6f139b]">man</span>/&gt;
           </h3>
         </ScrollLink>
       </div>
